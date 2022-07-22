@@ -8,8 +8,13 @@
 
     <style>
       .thumb {
-        background: url(./images/mobile/img1.jpg) center top no-repeat;
+        /* background: url(./images/mobile/img1.jpg) center top no-repeat; */
         height: 400px;
+        background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+          ),
+          -webkit-image-set(url(img1.jpg) 1x);
 
         /* background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
